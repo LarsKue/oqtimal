@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "oqtimal"
-version = "0.0.1a"
+version = "0.0.2a0"
 authors = [
     { name = "Lars Kühmichel", email = "larskuedev@gmail.com" },
 ]
@@ -20,3 +20,6 @@ classifiers = [
 [project.urls]
 Homepage = "https://github.com/LarsKue/oqtimal"
 Issues = "https://github.com/LarsKue/oqtimal/issues"
+
+[project.dependencies]
+jax = "0.5"
