@@ -17,9 +17,15 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
 ]
 
+dependencies = [
+    "jax >= 0.5",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest >= 8.3",
+]
+
 [project.urls]
 Homepage = "https://github.com/LarsKue/oqtimal"
 Issues = "https://github.com/LarsKue/oqtimal/issues"
-
-[project.dependencies]
-jax = "0.5"
